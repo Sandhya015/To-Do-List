@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.my-container {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+div[ng-show="editingTask"] {
+    margin-top: 10px;
+}
